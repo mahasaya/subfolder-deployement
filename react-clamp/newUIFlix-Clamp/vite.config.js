@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(),],
-  base: '/subfolder-deployement/react-clamp/newUIFlix-Clamp', 
+  base: '/react-clamp/newUIFlix-Clamp/', 
   build: {
     outDir: 'docs',
   },
